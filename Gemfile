@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Added pagination
+gem 'will_paginate', '~> 3.1.0'
 # Added twitter bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
 # Added Sprockets
