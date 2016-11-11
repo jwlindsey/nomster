@@ -1,6 +1,7 @@
 // Master css stylesheet
 @import "bootstrap-sprockets";
 @import "bootstrap";
+//@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600');
 
 .booyah-box{
   -webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
@@ -22,11 +23,17 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background: url('/assets/brushed_alu_dark.png');
   /* Modern Georgia-based serif stack */
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'nobileregular' Georgia, serif;
 }
 
 .navbar.navbar-inverse {
   background: url('/assets/black-Linen.png');
   border-radius: 0;
   box-shadow: 0px 2px 5px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ACE1F2;
+  font-family: 'nobileregular', serif;
+  font-size:21px;
 }
