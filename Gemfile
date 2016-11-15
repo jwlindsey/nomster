@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Added a simple form
+gem 'simple_form'
 # Added pagination
 gem 'will_paginate', '~> 3.1.0'
 # Added twitter bootstrap
