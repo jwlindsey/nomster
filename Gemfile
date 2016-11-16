@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Added login and security
+gem 'devise', '>= 3.2.4'
 # Added a simple form
 gem 'simple_form'
 # Added pagination
