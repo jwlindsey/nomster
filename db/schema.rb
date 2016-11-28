@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20161126203351) do
 
   create_table "photos", force: true do |t|
     t.text     "caption"
+    t.integer  "user_id"
     t.integer  "place_id"
     t.datetime "created_at"
     t.datetime "updated_at"
