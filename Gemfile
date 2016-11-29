@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Added an image field
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 # Add values to the ENV on our localhost
 gem 'figaro', '>=1.0.0'
 # Added geo location
