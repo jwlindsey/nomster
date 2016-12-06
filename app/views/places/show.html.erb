@@ -4,8 +4,6 @@
   <br/><br/>
   <p><%= @place.description %><p>
 
-    </head>
-    <body>
       <div id="map"></div>
 
 <% if @place.latitude.present? && @place.longitude.present? %>
@@ -128,8 +126,8 @@
 
 <% @place.photos.each do |photo| %>
   <div class="col-xs-12 col-sm-6">
+    <%= image_tag photo.picture, class:"img-responsive" %>
     <blockquote>
-      <%= image_tag photo.picture %>
       <%= photo.caption %>
     </blockquote>
   </div>
