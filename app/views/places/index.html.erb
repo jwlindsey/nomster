@@ -9,28 +9,22 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <% @places.each do |place| %>
-      <img src=<%= image_tag place.photos.last.picture %> alt="Slider 1">
+      <img src=<%= image_tag @all_places.photos.last.picture %> alt="Slider 1">
       <div class="carousel-caption">
-        <%= link_to place.name, place_path(place) %>
+        <%= link_to @all_places.first.name, place_path(place) %>
       </div>
-      <% end %>
     </div>
     <div class="item">
-      <% @places.each do |place| %>
-      <img src=<%= image_tag place.photos.last.picture %> alt="Slider 1">
+      <img src=<%= image_tag @all_places.photos.last.picture %> alt="Slider 2">
       <div class="carousel-caption">
         <%= link_to place.name, place_path(place) %>
       </div>
-      <% end %>
     </div>
     <div class="item">
-      <% @places.each do |place| %>
-      <img src=<%= image_tag place.photos.last.picture %> alt="Slider 1">
+      <img src=<%= image_tag @all_places.photos.last.picture %> alt="Slider 3">
       <div class="carousel-caption">
         <%= link_to place.name, place_path(place) %>
       </div>
-      <% end %>
     </div>
   </div>
 
