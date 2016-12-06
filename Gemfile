@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#added fog gem to work with carrierwave
+gem "fog"
 # Added an image field
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 # Add values to the ENV on our localhost
