@@ -9,19 +9,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <%= image_tag 'slider1.jpg', class:"img-responsive" %>
+      <%= image_tag 'slider1.jpg', class:"img-responsive center-block" %>
       <div class="carousel-caption">
         Find the best Tex-Mex places
       </div>
     </div>
     <div class="item">
-      <%= image_tag 'slider2.jpg', class:"img-responsive" %>
+      <%= image_tag 'slider2.jpg', class:"img-responsive center-block" %>
       <div class="carousel-caption">
         Find the best Italian places
       </div>
     </div>
     <div class="item">
-      <%= image_tag 'slider3.jpg', class:"img-responsive" %>
+      <%= image_tag 'slider3.jpg', class:"img-responsive center-block" %>
       <div class="carousel-caption">
         Find the best BBQ places
       </div>
@@ -36,6 +36,9 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
+
+<h1 class="text-center">Welcome to Nomster of Austin.</h1>
+<h1 class="text-center lead">Find all the best places to eat at while you're here.</h1>
 
 <%= will_paginate @places %>
 <% @places.each do |place| %>
